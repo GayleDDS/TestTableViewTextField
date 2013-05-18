@@ -64,7 +64,7 @@
         switch ( indexPath.row ) {
             case 3: {
                 cell.textLabel.text = @"Phone" ;
-                tf = phoneFieldTextField = [self makeTextField:self.phone placeholder:@"xxx-xxx-xxxx"];
+                tf = phoneFieldTextField = [self makeTextField:self.phone placeholder:@"(xxx) xxx-xxxx"];
                 phoneFieldTextField.keyboardType = UIKeyboardTypePhonePad;
                 
                 [self formatPhoneNumber:phoneFieldTextField.text deleteLastChar:YES];
@@ -108,7 +108,7 @@
     NSString* totalString = [NSString stringWithFormat:@"%@%@",textField.text,string];
     
     // if it's the phone number textfield format it.
-    if(textField.tag == 10 ) {
+    if(textField == phoneFieldTextField) {
         if (range.length == 1) {
             // Delete button was hit.. so tell the method to delete the last char.
             textField.text = [self formatPhoneNumber:totalString deleteLastChar:YES];
