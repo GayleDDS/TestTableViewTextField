@@ -1,5 +1,5 @@
 //
-//  DDSSecondViewController.h
+//  BetterTableViewController.h
 //  TestTableViewTextField
 //
 //  Created by Gayle Dunham on 5/18/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DDSSecondViewController : UIViewController
+@interface BetterTableViewController : UITableViewController
 
 @end

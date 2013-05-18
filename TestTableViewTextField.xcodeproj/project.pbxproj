@@ -18,10 +18,8 @@
 		C333768F1747E29D00AF4F9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C333768E1747E29D00AF4F9C /* Default-568h@2x.png */; };
 		C33376921747E29D00AF4F9C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33376901747E29D00AF4F9C /* MainStoryboard_iPhone.storyboard */; };
 		C33376951747E29D00AF4F9C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33376931747E29D00AF4F9C /* MainStoryboard_iPad.storyboard */; };
-		C33376981747E29D00AF4F9C /* DDSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33376971747E29D00AF4F9C /* DDSFirstViewController.m */; };
 		C333769A1747E29D00AF4F9C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C33376991747E29D00AF4F9C /* first.png */; };
 		C333769C1747E29D00AF4F9C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C333769B1747E29D00AF4F9C /* first@2x.png */; };
-		C333769F1747E29D00AF4F9C /* DDSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C333769E1747E29D00AF4F9C /* DDSSecondViewController.m */; };
 		C33376A11747E29D00AF4F9C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C33376A01747E29D00AF4F9C /* second.png */; };
 		C33376A31747E29D00AF4F9C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33376A21747E29D00AF4F9C /* second@2x.png */; };
 		C33376AB1747E29E00AF4F9C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33376AA1747E29E00AF4F9C /* SenTestingKit.framework */; };
@@ -29,6 +27,8 @@
 		C33376AD1747E29E00AF4F9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C333767A1747E29D00AF4F9C /* Foundation.framework */; };
 		C33376B51747E29E00AF4F9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33376B31747E29E00AF4F9C /* InfoPlist.strings */; };
 		C33376B81747E29E00AF4F9C /* TestTableViewTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33376B71747E29E00AF4F9C /* TestTableViewTextFieldTests.m */; };
+		C33376C41747E3A000AF4F9C /* YourTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33376C31747E3A000AF4F9C /* YourTableViewController.m */; };
+		C33376C71747E3B800AF4F9C /* BetterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33376C61747E3B800AF4F9C /* BetterTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +57,8 @@
 		C333768E1747E29D00AF4F9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C33376911747E29D00AF4F9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		C33376941747E29D00AF4F9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		C33376961747E29D00AF4F9C /* DDSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDSFirstViewController.h; sourceTree = "<group>"; };
-		C33376971747E29D00AF4F9C /* DDSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSFirstViewController.m; sourceTree = "<group>"; };
 		C33376991747E29D00AF4F9C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		C333769B1747E29D00AF4F9C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		C333769D1747E29D00AF4F9C /* DDSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDSSecondViewController.h; sourceTree = "<group>"; };
-		C333769E1747E29D00AF4F9C /* DDSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSSecondViewController.m; sourceTree = "<group>"; };
 		C33376A01747E29D00AF4F9C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		C33376A21747E29D00AF4F9C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		C33376A91747E29E00AF4F9C /* TestTableViewTextFieldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewTextFieldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +67,10 @@
 		C33376B41747E29E00AF4F9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C33376B61747E29E00AF4F9C /* TestTableViewTextFieldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewTextFieldTests.h; sourceTree = "<group>"; };
 		C33376B71747E29E00AF4F9C /* TestTableViewTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewTextFieldTests.m; sourceTree = "<group>"; };
+		C33376C21747E3A000AF4F9C /* YourTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourTableViewController.h; sourceTree = "<group>"; };
+		C33376C31747E3A000AF4F9C /* YourTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourTableViewController.m; sourceTree = "<group>"; };
+		C33376C51747E3B700AF4F9C /* BetterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterTableViewController.h; sourceTree = "<group>"; };
+		C33376C61747E3B800AF4F9C /* BetterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,18 +130,15 @@
 		C333767E1747E29D00AF4F9C /* TestTableViewTextField */ = {
 			isa = PBXGroup;
 			children = (
-				C33376871747E29D00AF4F9C /* DDSAppDelegate.h */,
-				C33376881747E29D00AF4F9C /* DDSAppDelegate.m */,
 				C33376901747E29D00AF4F9C /* MainStoryboard_iPhone.storyboard */,
 				C33376931747E29D00AF4F9C /* MainStoryboard_iPad.storyboard */,
-				C33376961747E29D00AF4F9C /* DDSFirstViewController.h */,
-				C33376971747E29D00AF4F9C /* DDSFirstViewController.m */,
-				C33376991747E29D00AF4F9C /* first.png */,
-				C333769B1747E29D00AF4F9C /* first@2x.png */,
-				C333769D1747E29D00AF4F9C /* DDSSecondViewController.h */,
-				C333769E1747E29D00AF4F9C /* DDSSecondViewController.m */,
-				C33376A01747E29D00AF4F9C /* second.png */,
-				C33376A21747E29D00AF4F9C /* second@2x.png */,
+				C33376871747E29D00AF4F9C /* DDSAppDelegate.h */,
+				C33376881747E29D00AF4F9C /* DDSAppDelegate.m */,
+				C33376C21747E3A000AF4F9C /* YourTableViewController.h */,
+				C33376C31747E3A000AF4F9C /* YourTableViewController.m */,
+				C33376C51747E3B700AF4F9C /* BetterTableViewController.h */,
+				C33376C61747E3B800AF4F9C /* BetterTableViewController.m */,
+				C33376C11747E30E00AF4F9C /* Images */,
 				C333767F1747E29D00AF4F9C /* Supporting Files */,
 			);
 			path = TestTableViewTextField;
@@ -178,6 +175,17 @@
 				C33376B31747E29E00AF4F9C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33376C11747E30E00AF4F9C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C33376991747E29D00AF4F9C /* first.png */,
+				C333769B1747E29D00AF4F9C /* first@2x.png */,
+				C33376A01747E29D00AF4F9C /* second.png */,
+				C33376A21747E29D00AF4F9C /* second@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,8 +306,8 @@
 			files = (
 				C33376851747E29D00AF4F9C /* main.m in Sources */,
 				C33376891747E29D00AF4F9C /* DDSAppDelegate.m in Sources */,
-				C33376981747E29D00AF4F9C /* DDSFirstViewController.m in Sources */,
-				C333769F1747E29D00AF4F9C /* DDSSecondViewController.m in Sources */,
+				C33376C41747E3A000AF4F9C /* YourTableViewController.m in Sources */,
+				C33376C71747E3B800AF4F9C /* BetterTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +498,7 @@
 				C33376BD1747E29E00AF4F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C33376BE1747E29E00AF4F9C /* Build configuration list for PBXNativeTarget "TestTableViewTextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				C33376C01747E29E00AF4F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
