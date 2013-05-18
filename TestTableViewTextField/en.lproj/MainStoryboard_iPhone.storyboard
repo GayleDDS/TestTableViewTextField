@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="132" y="180"/>
         </scene>
-        <!--Better Table View Controller - Item-->
+        <!--Better Table View Controller - Better Solution-->
         <scene sceneID="m8Z-76-bAz">
             <objects>
                 <tableViewController id="mc8-ZO-PQw" customClass="BetterTableViewController" sceneMemberID="viewController">
@@ -46,12 +46,12 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vud-AA-NUp">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Johnny Appleseed" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vud-AA-NUp">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="173" id="lc7-IK-2PN"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -75,12 +75,12 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xcZ-Lq-rSC">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1 Infinite Loop" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xcZ-Lq-rSC">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="173" id="SDT-uq-DAY"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -104,12 +104,12 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pT6-3t-SA1">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="johnny.appleseed@apple.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pT6-3t-SA1">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="173" id="cGu-H1-fAc"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -133,12 +133,12 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WkI-BI-Ck3">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="xxx-xxx-xxxx" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WkI-BI-Ck3">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="173" id="AVg-AD-8vL"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -162,12 +162,12 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PBn-mL-AOI">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="dd-mm-yyyy" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PBn-mL-AOI">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="173" id="HVg-Mj-Pzb"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -187,7 +187,7 @@
                             <outlet property="delegate" destination="mc8-ZO-PQw" id="4ce-vF-V9T"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="w3M-m2-Rsx"/>
+                    <tabBarItem key="tabBarItem" title="Better Solution" image="second" id="w3M-m2-Rsx"/>
                     <connections>
                         <outlet property="addressTextField" destination="xcZ-Lq-rSC" id="iX0-Pg-MO8"/>
                         <outlet property="dateOfBirthTextField" destination="PBn-mL-AOI" id="eDu-F2-tST"/>
@@ -202,15 +202,23 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <items>
-                        <barButtonItem title="Next" id="ZtV-h5-KWe"/>
+                        <barButtonItem title="Next" id="ZtV-h5-KWe">
+                            <connections>
+                                <action selector="nextTextField:" destination="mc8-ZO-PQw" id="geJ-wq-97B"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="dEl-PF-Bqs"/>
-                        <barButtonItem systemItem="done" id="Mta-Rk-6DZ"/>
+                        <barButtonItem systemItem="done" id="Mta-Rk-6DZ">
+                            <connections>
+                                <action selector="doneKeyboard:" destination="mc8-ZO-PQw" id="45N-Rb-ytm"/>
+                            </connections>
+                        </barButtonItem>
                     </items>
                 </toolbar>
             </objects>
             <point key="canvasLocation" x="638" y="639"/>
         </scene>
-        <!--Your Table View Controller - Item-->
+        <!--Your Table View Controller - Your Code-->
         <scene sceneID="pVM-nQ-AyR">
             <objects>
                 <tableViewController id="s2L-CV-UfY" customClass="YourTableViewController" sceneMemberID="viewController">
@@ -223,32 +231,17 @@
                             <outlet property="delegate" destination="s2L-CV-UfY" id="ndL-Y9-ACb"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="fcm-iR-NBU"/>
+                    <tabBarItem key="tabBarItem" title="Your Code" image="first" id="fcm-iR-NBU"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWu-hL-17I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="638" y="-163"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="BetterTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BetterTableViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="addressTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="dateOfBirthTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="emailTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="keyboardToolbar" candidateClass="UIToolbar"/>
-                <relationship kind="outlet" name="nameTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="phoneTextField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="YourTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/YourTableViewController.h"/>
-        </class>
-    </classes>
+    <resources>
+        <image name="first" width="16" height="16"/>
+        <image name="second" width="16" height="16"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -8,7 +8,7 @@
 
 #import "YourTableViewController.h"
 
-@interface YourTableViewController ()
+@interface YourTableViewController () <UITextFieldDelegate>
 
 @end
 
@@ -27,6 +27,8 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+
     self.phone = @"";
 }
 
@@ -130,8 +132,25 @@
     if (placeholder && placeholder.length)
         textField.placeholder = placeholder;
 
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+    
+    UIToolbar *keyboardToolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 44, 320, 44)];
+    UIBarButtonItem *flexableSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
+    UIBarButtonItem *doneKeyboard  = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneKeyboard:)];
+    keyboardToolbar.items = @[flexableSpace, doneKeyboard];
+    
+    textField.inputAccessoryView = keyboardToolbar;
+    textField.delegate           = self;
+    
     return textField;
 }
+     
+- (void)doneKeyboard:(UIBarButtonItem *)sender
+{
+    if (phoneFieldTextField)
+        [phoneFieldTextField resignFirstResponder];
+}
+
 
 - (NSString*) formatPhoneNumber:(NSString*) simpleNumber deleteLastChar:(BOOL)deleteLastChar {
     
