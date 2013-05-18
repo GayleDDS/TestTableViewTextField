@@ -45,7 +45,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -78,23 +78,26 @@
                 
         }
     }
+    return cell;
 }
 
 // Textfield value changed, store the new value.
 - (void)textFieldDidEndEditing:(UITextField *)textField {
     
     //Section 1.
-    if ( textField == nameFieldTextField ) {
-        self.name = textField.text ;
-    } else if ( textField == addressFieldTextField ) {
-        self.address = textField.text ;
-    } else if ( textField == emailFieldTextField ) {
-        self.email = textField.text ;
-    } else
+//    if ( textField == nameFieldTextField ) {
+//        self.name = textField.text ;
+//    } else if ( textField == addressFieldTextField ) {
+//        self.address = textField.text ;
+//    } else if ( textField == emailFieldTextField ) {
+//        self.email = textField.text ;
+//    } else
+    
         if ( textField == phoneFieldTextField ) {
         self.phone = textField.text ;
-    }else if ( textField == dateOfBirthTextField ) {
-        self.dateOfBirth = textField.text ;
+
+//    }else if ( textField == dateOfBirthTextField ) {
+//        self.dateOfBirth = textField.text ;
     }
     
 }
@@ -117,7 +120,20 @@
     NSLog(@"Testing should change character in range");
 }
 
--(NSString*) formatPhoneNumber:(NSString*) simpleNumber deleteLastChar:(BOOL)deleteLastChar {
+- (UITextField *) makeTextField:(NSString *)text placeholder:(NSString *) placeholder
+{
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(117, 7, 183, 30)];
+    
+    if (text && text.length)
+        textField.text = text;
+
+    if (placeholder && placeholder.length)
+        textField.placeholder = placeholder;
+
+    return textField;
+}
+
+- (NSString*) formatPhoneNumber:(NSString*) simpleNumber deleteLastChar:(BOOL)deleteLastChar {
     
     if(simpleNumber.length == 0) return @"";
     // use regex to remove non-digits(including spaces) so we are left with just the numbers
